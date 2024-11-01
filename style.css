@@ -1,0 +1,51 @@
+#itemqueue
+{
+	background-color: #F5F5F5;
+	border: 1px solid #AAA;
+	margin-bottom: 10px;
+	height: 300px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	resize: vertical;
+}
+
+#uploadbar
+{
+	margin-top: 15px;
+	background-color: #F5F5F5;
+	border-left: 1px solid #E5E5E5;
+	border-right: 1px solid #E5E5E5;
+	border-top: 1px solid #E5E5E5;
+	padding: 5px;
+}
+
+.itemwrap
+{
+	padding: 10px 10px 20px 10px;
+}
+
+#fileloadUploader
+{
+	margin-bottom: 30px;
+}
+
+.uploadifyQueueItem 
+{
+	margin-top: 0;
+	border: none;
+	height: 25px;
+	width: 100%;
+	padding: 0;
+	background: none;
+}
+
+.uploadifyProgressBar
+{
+	width: 0px;
+	height: 10px;
+}
+
+.uploadifyError
+{
+	border: none;
+}
